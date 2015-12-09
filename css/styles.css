@@ -7,3 +7,9 @@
 .paragraph2{
     color:#0000ff;
 }
+
+mark{
+    background-color:#00FF00;
+    padding:0px 15px;
+    margin:0px 15px;
+}
