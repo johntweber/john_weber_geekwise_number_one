@@ -1,15 +1,223 @@
-.heading1{
-   color:#00b300;
-}
-.paragraph1{
-    color:#cc0000;
-}
-.paragraph2{
-    color:#0000ff;
+/*============GLOBAL STYLES*=================/
+/*#FFFFFF*/
+/*#000000*/
+
+html, body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
 }
 
-mark{
-    background-color:#00FF00;
-    padding:0px 15px;
-    margin:0px 15px;
+body {
+    background-color:#FFFFFF;
+    font-family: 'Source Sans Pro', Trebuchet MS, sans-serif;
+    font-size:16px;
+    font-weight:normal;
 }
+
+body {
+    color:#000000;
+}
+
+h1, h2, h3, h4 {
+    margin:0px;
+    padding:0px;
+    color:#009900;
+}
+p {
+    line-height:115%;
+    margin:15px 0px;
+}
+
+b, strong {
+    color:#009900;
+}
+
+a {
+    color:#009900;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00CC66;
+}
+
+.mainBody {
+    overflow:hidden;
+    margin:0px auto;
+    width:1200px;
+}
+/*============HEADER STYLES=================*/
+
+header {
+    background-color:#505050;
+}
+#headerBlock {
+    padding:20px 0px;
+}
+
+#logo a {
+    color:#00CC66;
+}
+#logo a:hover {
+    color:#009900; 
+}
+/*============BANNER STYLES=================*/
+
+#bannerHome{
+    overflow:hidden;
+    padding:115px 0px;
+    border-top:3px solid #009900;
+    background-size:cover;
+    background:url(../images/banner_home_image.jpg) no-repeat center top #00CC66;
+}
+
+.bannerText{
+    color:#FFFFFF;
+    font-size:6em;
+    text-align:center;
+    text-shadow:7px 7px 10px #000000;
+}
+
+
+/*=========Main Section Styles============*/
+
+
+.columnA, .columnB, .columnC{
+    width:384px;
+}
+
+.columnA, .columnB{
+    float:left;
+    margin-right:24px;
+}
+
+.columnC{
+    float:left;
+}
+
+.columnA h2, .columnB h2, .columnC h2{
+    font-size:3em;
+    font-weight:700;
+    text-align:center;
+    line-height:1em;
+    margin:15px 0px;
+}
+
+.columnA p, .columnB p, .columnC p{
+   padding:0px;
+   text-align:justify;
+}
+
+.column span {
+    background-color:#009900;
+    color:#FFFFFF;
+    display:block;
+    font-size:1.5em;
+    font-weight:600;
+    margin:0px 0px 15px 0px;
+    padding:7px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+
+
+/*===========standard styles==============*/
+
+/*===========button styles=============*/
+
+a.button {
+    display:inline-block;
+    padding:10px 18px;
+    background-color:#009900;
+    text-transform:uppercase;
+    font-weight:800;
+    font-size:1.2em;
+    color:#FFFFFF;
+    border-radius:4px;
+    margin:10px;
+}
+
+a.button:hover {
+    background-color:#00CC66;
+    color:#FFFFFF;
+}
+
+div.center {
+    text-align:center;
+}
+
+
+/*============MENU NAVIGATION===============*/
+
+#menu {
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+#menu ul {
+    display:inline-block;
+}
+#menu ul li{
+    display:inline;
+    float:left;
+    text-align:center;
+    margin:0px 10px;
+}
+
+.currentPage {
+    color:#00CC66;
+}
+
+
+/*=================ABOUT ME STYLES SECTION===============*/
+
+#aboutMe {
+    margin:15px 0px;
+}
+
+.aside-home-left{
+    width:384px;
+    float:left;
+    margin-right: 24px;
+    
+}
+
+.article-home-right p{
+    text-align:justify;
+}
+
+
+/*===================FOOOTER SECTION===============*/
+
+#copyright {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top:3px solid #009900;
+    background-color: #d4ffea;
+    display:block;
+    text-align:center;
+    
+}
+
+/*============social media styles===========*/
+
+.fa {
+    background-color:rgb(0, 153, 77);
+    border: 3px solid #FFFFFF;
+    border-radius:100%;
+    font-size:2em !important;
+    margin:15px;
+    padding:10px;
+    color: #FFFFFF;
+    height:28px;
+    width:28px;
+}
+
+.fa-facebook{background-color:#0C516E;}
+
+.fa-twitter{background-color:#8CA6D9;}
+
+
