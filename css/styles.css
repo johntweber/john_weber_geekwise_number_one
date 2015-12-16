@@ -2,6 +2,8 @@
 /*#FFFFFF*/
 /*#000000*/
 
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 html, body{
     width:100%;
     height:100%;
@@ -37,6 +39,7 @@ b, strong {
 a {
     color:#009900;
     text-decoration: none;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
 a:hover {
@@ -52,6 +55,7 @@ a:hover {
 
 header {
     background-color:#505050;
+    padding:15px 0px;
 }
 #headerBlock {
     padding:20px 0px;
@@ -78,6 +82,8 @@ header {
     font-size:6em;
     text-align:center;
     text-shadow:7px 7px 10px #000000;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing:6px;
 }
 
 
@@ -138,11 +144,13 @@ a.button {
     color:#FFFFFF;
     border-radius:4px;
     margin:10px;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
 a.button:hover {
     background-color:#00CC66;
     color:#FFFFFF;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
 div.center {
@@ -157,6 +165,10 @@ div.center {
     top:20px;
     right:20px;
 }
+
+
+
+
 #menu ul {
     display:inline-block;
 }
@@ -214,8 +226,12 @@ div.center {
     color: #FFFFFF;
     height:28px;
     width:28px;
+    transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
+.fa:hover {
+    background-color:#00CC66;
+}
 .fa-facebook{background-color:#0C516E;}
 
 .fa-twitter{background-color:#8CA6D9;}
