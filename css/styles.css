@@ -2,7 +2,7 @@
 /*#FFFFFF*/
 /*#000000*/
 
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light|Poiret+One);
 
 html, body{
     width:100%;
@@ -25,7 +25,7 @@ body {
 h1, h2, h3, h4 {
     margin:0px;
     padding:0px;
-    color:#009900;
+    color:#009900
 }
 p {
     line-height:115%;
@@ -86,7 +86,21 @@ header {
     letter-spacing:6px;
 }
 
+#bannerAbout{
+    overflow:hidden;
+    padding:20px 0px;
+    border-top:3px solid #009900;
+    background-size:cover;
+    background:url(../images/banner_home_image.jpg) no-repeat center top #00CC66;
+}
 
+#bannerContact{
+    overflow:hidden;
+    padding:px 0px;
+    border-top:3px solid #009900;
+    background-size:cover;
+    background:url(../images/banner_home_image.jpg) no-repeat center top #00CC66;
+}
 /*=========Main Section Styles============*/
 
 
@@ -162,12 +176,9 @@ div.center {
 
 #menu {
     position:absolute;
-    top:20px;
+    top:33px;
     right:20px;
 }
-
-
-
 
 #menu ul {
     display:inline-block;
@@ -194,6 +205,12 @@ div.center {
     width:384px;
     float:left;
     margin-right: 24px;
+    
+}
+.aside-home-right{
+    width:384px;
+    float:right;
+    margin-left: 24px;
     
 }
 
