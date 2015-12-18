@@ -289,7 +289,7 @@ div.center {
 }
 
 
-}
+
 /*MOBILE WEBSITE STYLES*/
 
 @media screen and (max-width: 768px) {
@@ -320,16 +320,4 @@ div.center {
         font-family: 'Shadows Into Light', cursive;
         letter-spacing:6px;
         }
-}
-@media screen and (max-width: 400px){
-   body {
-    background-color:#FFFFFF;
-    font-family: 'Source Sans Pro', Trebuchet MS, sans-serif;
-    font-size:3em;
-    font-weight:normal;
-
-}
-#bannerAbout{
-    width:100%;
-}
 }
